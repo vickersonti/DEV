@@ -1,0 +1,93 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user": "admin",
+      "password": "123"
+    },
+    {
+      "user": "emerson",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "user": "teste",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "user": "danilo",
+      "password": "123",
+      "id": 4
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "name": "arroz",
+      "price": 5.15,
+      "category": "bazar",
+      "stock": 45
+    },
+    {
+      "id": 2,
+      "name": "Macarrão",
+      "price": 2.5,
+      "category": "Massas",
+      "stock": 4
+    },
+    {
+      "id": 3,
+      "name": "Lampada",
+      "price": 5.5,
+      "category": "Bazar",
+      "stock": 7
+    },
+    {
+      "id": 4,
+      "name": "Miojo",
+      "price": 0.8,
+      "category": "Massas",
+      "stock": 50
+    },
+    {
+      "id": 5,
+      "name": "Feijão",
+      "price": 2.5,
+      "category": "Bazar",
+      "stock": 45
+    },
+    {
+      "id": 6,
+      "name": "Suco de uva",
+      "price": 15,
+      "category": "Bazar",
+      "stock": 15
+    },
+    {
+      "id": 7,
+      "name": "teste",
+      "price": 1230,
+      "category": "Cereais",
+      "stock": 1
+    }
+  ],
+  "pessoas": [
+    {
+      "id": 1,
+      "name": "DANILO",
+      "birth": 1999,
+      "nationality": "Rio de Janeiro",
+      "naturalness": "Brasileiro",
+      "phone": "222222223"
+    },
+    {
+      "id": 2,
+      "name": "ANA CLARA",
+      "birth": 2018,
+      "nationality": "Rio de Janeiro",
+      "naturalness": "Brasileira",
+      "phone": "22222223"
+    }
+  ]
+}

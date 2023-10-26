@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+}
+
+#btn-download {
+  margin-bottom: 10px;
+}
+
+.none {
+  display: none;
+}
+
+mat-form-field {
+  margin-right: 12px;
+}
+
+
+.btnGroup {
+  display: flex;
+  align-items:flex-start;
+
+  #btn-create {
+    margin-left: 10px;
+  }
+}

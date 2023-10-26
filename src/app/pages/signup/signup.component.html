@@ -1,0 +1,25 @@
+<div class="d-flex justify-content-center">
+    <form [formGroup]="form" class="formLogin">
+        
+        <h1> Cadastro de usuário </h1>        
+        <p>Crie seus dados de acesso aqui. </p>
+        <mat-form-field floatLabel="always" appearance="outline" class="mt-1">
+            <mat-label> Usuário </mat-label>
+            <input matInput placeholder="Digite seu usuário" formControlName="user">
+            <mat-error *ngIf="this.form.controls['user'].invalid">Digite um usuário</mat-error>            
+        </mat-form-field>
+
+        <mat-form-field floatLabel="always" appearance="outline" class="mt-2 mb-3">
+            <mat-label> Senha </mat-label>
+            <input type="password" matInput placeholder="Digite sua senha" formControlName="password">            
+            <mat-error *ngIf="this.form.controls['password'].invalid">Digite uma senha</mat-error>
+        </mat-form-field>
+
+        <button mat-raised-button color="primary" (click)="save()">
+            <mat-icon aria-hidden="false">save</mat-icon>
+            Salvar
+        </button>
+
+        <a class="mt-3 text-start" color="warn" routerLink="/">Usuário existente? Clique aqui!!</a>
+    </form>
+</div>
